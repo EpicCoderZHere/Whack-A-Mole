@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/ico" href="hammer.png">
+    <title>Whack-A-Mole</title>
+    <link href="gameover.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+<center>
+  <h1 id="gameover">Game Over!</h1>
+</center>
+
+<center>
+  <div id="demo">Final Score: </div>
+</center>
+<br>
+<center>    
+  <img src="mole.gif"/>
+</center>
+
+<center>
+  <button onclick="window.location = 'index.html'">Play Again?</button>
+</center>
+
+<script>
+  document.getElementById("demo").innerHTML = 'Final Score: ' + localStorage.getItem("finalScore");
+</script>
+</body>
+</html>

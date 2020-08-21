@@ -1,0 +1,86 @@
+#mole1 {
+  float: left;
+ visibility: hidden;
+}
+
+#mole2 {
+  float: left;
+  visibility: hidden;
+}
+
+#mole3 {
+  float: left;
+ visibility: hidden;
+}
+
+#mole4 {
+  float: left;
+  visibility: hidden;
+}
+
+#mole5 {
+  float: left;
+  visibility: visible;
+}
+
+#mole6 {
+  float: left;
+  visibility: hidden;
+}
+
+#mole7 {
+  float: left;
+  visibility: hidden;
+}
+
+#mole8 {
+  float: left;
+  visibility: hidden;
+}
+
+#mole9 {
+  float: left;
+  visibility: hidden;
+}
+
+#moleholder {
+  margin: auto;
+  width: 910px;
+  height: 910px;
+  visibility: visible;
+  background-color: burlywood;
+cursor: url(hammer.cur),auto;
+}
+
+#score {
+font-family: Impact, Charcoal, sans-serif;
+font-size: 25px;
+text-transform: uppercase;
+visibility: visible;
+}
+
+#timer {
+  font-family: Impact, Charcoal, sans-serif;
+font-size: 25px;
+text-transform: uppercase;
+visibility: visible;
+}
+
+#ranNum {
+
+text-transform: uppercase;
+ /* display: none; */
+}
+
+body {
+  background-color: #66cc66;
+cursor: url(hammer.cur),auto;
+
+}
+
+#hidden {
+  display: none;
+}
+
+
+

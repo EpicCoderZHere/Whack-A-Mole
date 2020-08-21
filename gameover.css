@@ -1,0 +1,27 @@
+body {
+  background-color: cornsilk;
+}
+
+#gameover {
+  color: red;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+
+button {
+  border-radius: 0.5in; 
+  background-color: lightcyan;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  font-family: font-family: 'Chilanka', cursive; 
+
+}
+
+
+#demo {
+font-family: cursive;
+font-size: 50px;
+color: black;
+}
